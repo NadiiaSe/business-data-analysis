@@ -1,81 +1,64 @@
-# 📊 Data Analysis Portfolio
+# Business Data Analysis
 
-**Aspiring Data Analyst** with experience in SQL, Python, and Power BI.  
-Focused on business insights and data-driven decision making.
+Two business analysis projects using Python and Power BI.
 
----
+## Project 1 — Sales & Profit Analysis
 
-## 🛠 Skills
+### Objective
 
-- **SQL** (Joins, Aggregations, Window Functions)
-- **Python** (Pandas, Data Analysis, Visualization)
-- **Power BI** (DAX, Dashboards)
+Analyze sales, profit, discounts, and product categories to identify the main drivers of profitability.
 
----
+### Key Findings
 
-# 📈 Project 1: Sales & Profit Analysis (Python)
+- Technology showed the highest profitability and strong overall performance.
+- Furniture had low profit despite high discounts.
+- Tables generated the largest losses.
+- High discounts often reduced profitability rather than improving sales.
 
-## 🎯 Objective
+### Recommendations
 
-Analyze sales, profit, and discount impact to identify key drivers of profitability and inefficiencies.
+- Reduce discount levels in low-performing categories.
+- Focus on high-efficiency segments such as Paper and Technology.
+- Review pricing strategy to improve margins.
 
-## 📂 Dataset
+**Tools:** Python · Pandas · Matplotlib
 
-Superstore dataset containing sales, profit, discount, and product categories.
-
-## 🔍 Key Insights
-
-- Technology shows the highest profitability and strong overall performance
-- Furniture has low profit despite high discounts, indicating inefficiency
-- Tables generate the largest losses
-- High discounts often reduce profitability rather than increase it
-
-## 💡 Recommendation
-
-- Reduce discount levels in low-performing categories like Furniture
-- Focus on high-efficiency segments such as Paper and Technology
-- Optimize pricing strategy to improve margins
-
-## 📊 Dashboard Overview
-
-![Sales Dashboard](https://github.com/user-attachments/assets/9412e710-6c44-4004-bd49-f44c2aa1a2b3)
+[View Python notebook →](./sales_analysis.ipynb)
 
 ---
 
-# 📊 Project 2: E-commerce Return Analysis (Power BI)
+## Project 2 — E-commerce Return Analysis
 
-## 📌 Overview
+### Objective
 
-Analysis of revenue and return patterns across countries to identify high-impact areas for optimization.
+Analyze revenue and return patterns across countries to identify markets with higher return rates and stronger business impact.
 
-## 📊 Key Metrics
+### Key Metrics
 
-- Revenue (Quantity × UnitPrice)
+- Revenue
 - Orders
 - Returns
 - Return Rate
 
-## 🔍 Key Insights
+### Key Findings
 
-- Germany and EIRE represent high-impact markets where elevated return rates (4–5%) coincide with strong revenue
-- The United Kingdom maintains a low return rate (~2%) despite high sales and serves as a reference point
-- Return behavior varies across countries, suggesting localized operational or product-related issues
-- Even a 1% reduction in return rate in high-revenue markets could significantly improve overall performance
+- Germany and EIRE had high revenue together with elevated return rates of approximately 4–5%.
+- The United Kingdom had a lower return rate of approximately 2% despite high sales.
+- Return behavior varied across countries.
+- High-revenue markets with elevated return rates represent potential areas for improvement.
 
-## 💡 Recommendation
+### Dashboard
 
-Focus on reducing return rates in high-revenue markets (Germany, EIRE) to improve overall profitability
+![E-commerce Return Analysis](ecommerce_return_analysis.jpg)
 
-## 📊 Dashboard Overview
+**Tools:** Power BI · DAX
 
-![Return Analysis Dashboard](https://github.com/user-attachments/assets/99e8221a-0122-4177-a2af-e52057766a8a)
+[View Power BI report →](./ecommerce_return_analysis.pbix)
 
-## ⭐ Key Visualization (Scatter)
+---
 
-![Scatter]<img width="1333" height="763" alt="image" src="https://github.com/user-attachments/assets/f20f683e-9fb0-4a5e-9315-50d4199e13e4" />
+## Tools
 
+**Python:** Pandas · Matplotlib · Jupyter Notebook
 
-## 🛠 Tools
-
-- Power BI
-- DAX
+**Power BI:** DAX · Data Visualization · Dashboarding
